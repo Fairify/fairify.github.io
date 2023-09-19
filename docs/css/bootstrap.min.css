@@ -232,12 +232,12 @@ sup {
 }
 
 a {
-    color: #2124B1;
+    color: #6419FF;
     text-decoration: none
 }
 
 a:hover {
-    color: #1a1d8e
+    color: #2B0080
 }
 
 a:not([href]):not([class]),
@@ -7720,6 +7720,11 @@ fieldset:disabled .btn {
 .my-5 {
     margin-top: 3rem !important;
     margin-bottom: 3rem !important
+}
+
+.my-6 {
+    margin-top: 3rem !important;
+    margin-bottom: 10rem !important
 }
 
 .my-auto {

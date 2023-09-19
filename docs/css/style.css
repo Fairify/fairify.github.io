@@ -29,6 +29,16 @@
     z-index: 99;
 }
 
+/*** Icons ***/
+
+.bi-check {
+    color:#8273da;
+}
+
+.bi-x {
+    color:#dc3545;
+}
+
 
 /*** Heading ***/
 h1,
@@ -83,7 +93,7 @@ h6,
 }
 
 .btn-grow:hover {
-    transform: scale(1.15);
+    transform: scale(1.1);
     margin-top:5px;
 }
 
@@ -653,7 +663,8 @@ h6,
 }
 
 .pricing-table.table-3 .ptable-single:hover {
-    box-shadow: 0 0 25px #999999;
+    box-shadow: 0 0 100px #6419FF;
+    transform: translateY(-15px);
     transition: .5s;
 }
 
@@ -824,6 +835,7 @@ h6,
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 3rem;
 }
 
 .toggle-btn label {
@@ -850,7 +862,7 @@ h6,
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #e1e1e1;
+    background-color: #6c757d;
     -webkit-transition: 0.4s;
     transition: 0.4s;
   
@@ -871,7 +883,7 @@ h6,
   }
   
   input:checked + .slider {
-    background-color: #8273da;
+    background-color: #6419ff;
     transition: 0.4s;
   }
   
@@ -892,7 +904,7 @@ h6,
   /* --- Monthly Expenses Table --- */
 
   .simple-table-wrapper {
-    padding: 20px 15%;
+    padding: 100px 25%;
   }
   
   .simple-table {
@@ -901,10 +913,10 @@ h6,
   }
 
   .simple-table td.cell {
-    border-right: 1px solid #2124B1;
-    border-bottom: 1px solid #2124B1;
+    border-right: 2px solid #2b0080;
+    border-bottom: 2px solid #2b0080;
     word-break: break-word;
-    background-color: #4245BD;
+    background-color: #6419ff;
     width: 33.333333333333%;
   }
 
@@ -918,7 +930,7 @@ h6,
 
   .simple-table.style-top tr:first-child td,
   .simple-table.style-side td:first-of-type {
-    background-color: #2124B1;
+    background-color: #2b0080;
   }
 
   .simple-table.style-top tr:first-child td .paragraph,
