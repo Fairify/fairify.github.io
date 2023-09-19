@@ -605,7 +605,8 @@ progress {
 
 .img-fluid {
     max-width: 100%;
-    height: auto
+    height: auto;
+    border-radius: 15px
 }
 
 .img-thumbnail {
@@ -3095,9 +3096,9 @@ fieldset:disabled .btn {
 .btn-check:focus+.btn-primary,
 .btn-primary:focus {
     color: #fff;
-    background-color: #1c1f96;
-    border-color: #1a1d8e;
-    box-shadow: 0 0 0 .25rem rgba(66, 69, 189, 0.5)
+    background-color: #2B0080;
+    border-color: #2B0080;
+    box-shadow: 0 0 0 .25rem rgba(75, 15, 225, 0.5)
 }
 
 .btn-check:checked+.btn-primary,
@@ -3106,8 +3107,8 @@ fieldset:disabled .btn {
 .btn-primary.active,
 .show>.btn-primary.dropdown-toggle {
     color: #fff;
-    background-color: #1a1d8e;
-    border-color: #191b85
+    background-color: #2B0080;
+    border-color: #2B0080
 }
 
 .btn-check:checked+.btn-primary:focus,
@@ -3115,7 +3116,7 @@ fieldset:disabled .btn {
 .btn-primary:active:focus,
 .btn-primary.active:focus,
 .show>.btn-primary.dropdown-toggle:focus {
-    box-shadow: 0 0 0 .25rem rgba(66, 69, 189, 0.5)
+    box-shadow: 0 0 0 .25rem rgba(178, 151, 244, 0.5)
 }
 
 .btn-primary:disabled,
@@ -3127,8 +3128,8 @@ fieldset:disabled .btn {
 
 .btn-secondary {
     color: #000;
-    background-color: #4b78f5;
-    border-color: #4b78f5
+    background-color: #4777f5;
+    border-color: #4777f5
 }
 
 .btn-secondary:hover {

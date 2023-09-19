@@ -166,7 +166,7 @@ h6,
     
     .sticky-top.navbar-light {
         position: fixed;
-        background: #201c1c;
+        background: rgba(32, 28, 28, 0.85);
     }
 
     .navbar-light .navbar-nav .nav-link::before {
@@ -211,6 +211,7 @@ h6,
         left 45% bottom -1px,
         center bottom -1px;
     background-repeat: no-repeat;
+    border-radius: 15px
 }
 
 
