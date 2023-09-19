@@ -3442,19 +3442,19 @@ fieldset:disabled .btn {
 }
 
 .btn-outline-primary {
-    color: #2124B1;
-    border-color: #2124B1
+    color: #6419FF;
+    border-color: #6419FF
 }
 
 .btn-outline-primary:hover {
     color: #fff;
-    background-color: #2124B1;
-    border-color: #2124B1
+    background-color: #6419FF;
+    border-color: #6419FF
 }
 
 .btn-check:focus+.btn-outline-primary,
 .btn-outline-primary:focus {
-    box-shadow: 0 0 0 .25rem rgba(33, 36, 177, 0.5)
+    box-shadow: 0 0 0 .25rem rgba(75, 15, 225, 0.5)
 }
 
 .btn-check:checked+.btn-outline-primary,
@@ -3463,8 +3463,8 @@ fieldset:disabled .btn {
 .btn-outline-primary.active,
 .btn-outline-primary.dropdown-toggle.show {
     color: #fff;
-    background-color: #2124B1;
-    border-color: #2124B1
+    background-color: #6419FF;
+    border-color: #6419FF
 }
 
 .btn-check:checked+.btn-outline-primary:focus,
@@ -3472,7 +3472,7 @@ fieldset:disabled .btn {
 .btn-outline-primary:active:focus,
 .btn-outline-primary.active:focus,
 .btn-outline-primary.dropdown-toggle.show:focus {
-    box-shadow: 0 0 0 .25rem rgba(33, 36, 177, 0.5)
+    box-shadow: 0 0 0 .25rem rgba(178, 151, 244, 0.5)
 }
 
 .btn-outline-primary:disabled,

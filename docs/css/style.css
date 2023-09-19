@@ -267,7 +267,7 @@ h6,
     position: relative;
     height: 350px;
     padding: 30px 25px;
-    background: #FFFFFF;
+    background: #2a293e;
     box-shadow: 0 0 45px rgba(0, 0, 0, .08);
     transition: .5s;
 }
@@ -320,7 +320,7 @@ h6,
 .service-item a.btn::before {
     position: absolute;
     content: "";
-    width: 35px;
+    width: 0px;
     height: 35px;
     top: 0;
     left: 0;
