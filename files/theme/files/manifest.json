@@ -1,0 +1,69 @@
+ {
+  "responsive": true,
+  "glyph-icons": true,
+  "enableEditorJS": true,
+  "description": "Venue is a contemporary theme that's perfect for anyone looking to make a big first impression. With unique color palettes and full screen header images Venue sets a strong creative tone for you to build unique content and assert your own voice.",
+  "features": [
+    "responsive",
+    "css-buttons",
+    "social-icons",
+    "full-width-header",
+    "navigation-collapsible",
+    "color-palettes"
+  ],
+  "color-support": {
+    "primary": "#4c64e9"
+  },
+  "color-presets": [
+    {
+      "primary": "#4c64e9"
+    },
+    {
+      "primary": "#57d18f"
+    },
+    {
+      "primary": "#53caeb"
+    },
+    {
+      "primary": "#ac4ce9"
+    },
+    {
+      "primary": "#e9ac4c"
+    }
+  ],
+  "variations": [
+    {
+      "value": "dark",
+      "sample": "#000",
+      "is-dark": true
+    },
+    {
+      "value": "light",
+      "sample": "#fff",
+      "is-dark": false
+    }
+  ],
+  "custom-options": [
+    {
+      "name": "product-aspect-ratio",
+      "title": "Product image aspect ratio",
+      "type": "dropdown",
+      "default": "square",
+      "is-body-class": true,
+      "choices": [
+        {
+          "value": "square",
+          "title": "Square"
+        },
+        {
+          "value": "landscape",
+          "title": "Landscape"
+        },
+        {
+          "value": "portrait",
+          "title": "Portrait"
+        }
+      ]
+    }
+  ]
+}
