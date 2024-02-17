@@ -143,7 +143,7 @@
                             </div>
                             <h5 class="mb-3">Community Security</h5>
                             <p>Let us test the security of your Discord server by allowing us to check for security flaws and moderation practices.</p>
-                            <h5 class="mb-1" style="user-select:none;">Coming Soon!</h5>
+                            <h5 id="timerTitle" class="mb-1" style="user-select:none;">Coming Soon!</h5>
                             <p id="timer" style="user-select:none;font-size:12px;margin-bottom:0px">Loading...</p>
                         </div>
                     </div>
@@ -247,7 +247,7 @@
     <!-- Server Security Countdown -->
     <script>
         // Set the date we're counting down to
-        var countDownDate = new Date("November 1, 2023 12:00:00").getTime();
+        var countDownDate = new Date("August 1, 2024 12:00:00").getTime();
         
         // Update the count down every 1 second
         var x = setInterval(function() {
@@ -265,16 +265,16 @@
           var seconds = Math.floor((distance % (1000 * 60)) / 1000);
         
           // Display the result in the element with id="timer"
-          document.getElementById("timer").innerHTML = days + "d " + hours + "h "
-          + minutes + "m " + seconds + "s ";
+          document.getElementById("timer").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
         
           // If the count down is finished, write some text
           if (distance < 0) {
             clearInterval(x);
-            document.getElementById("timer").innerHTML = "0d 0h 0m 0s";
+            document.getElementById("timerTitle").innerHTML = "Almost Ready!"
+            document.getElementById("timer").innerHTML = "Check back in a few minutes...";
           }
         }, 1000);
-        </script>
+    </script>
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
