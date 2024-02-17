@@ -905,7 +905,9 @@ progress {
 
 .g-4,
 .gx-4 {
-    --bs-gutter-x: 1.5rem
+    --bs-gutter-x: 1.5rem;
+    margin-left: 5vw;
+    margin-right: 5vw;
 }
 
 .g-4,
@@ -3139,6 +3141,7 @@ fieldset:disabled .btn {
     background-color: #6496f5;
     border-color: #6496f5
 }
+
 /*
 .btn-check:focus+.btn-secondary,
 .btn-secondary:focus {
@@ -3157,6 +3160,7 @@ fieldset:disabled .btn {
     background-color: #6c92f7;
     border-color: #5985f6
 }
+
 /*
 .btn-check:checked+.btn-secondary:focus,
 .btn-check:active+.btn-secondary:focus,
@@ -7799,7 +7803,8 @@ fieldset:disabled .btn {
 }
 
 .mb-1 {
-    margin-bottom: .25rem !important
+    margin-bottom: .25rem !important;
+    margin-top: auto !important
 }
 
 .mb-2 {

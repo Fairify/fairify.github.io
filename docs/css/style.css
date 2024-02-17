@@ -276,8 +276,9 @@ h6,
 /*** Service ***/
 .service-item {
     position: relative;
-    height: 350px;
-    padding: 30px 25px;
+    height: auto;
+    min-height: 400px;
+    padding: 25px 25px;
     background: #2a293e;
     box-shadow: 0 0 45px rgba(0, 0, 0, .08);
     transition: .5s;
@@ -288,7 +289,7 @@ h6,
 }
 
 .service-item .service-icon {
-    margin: 0 auto 20px auto;
+    margin: 0 auto 25px auto;
     width: 90px;
     height: 90px;
     display: flex;
@@ -353,7 +354,6 @@ h6,
     font-weight: 500;
     width: 75px;
     border-radius: 100px;
-    margin-right: 75%;
 }
 
 .service-tag-paid {
@@ -363,7 +363,6 @@ h6,
     font-weight: 500;
     width: 100px;
     border-radius: 100px;
-    margin-right: 65%;
 }
 
 
