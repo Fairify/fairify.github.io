@@ -1,0 +1,9 @@
+
+
+B-202405311
+
++ Added an announcement banner
++ Added a Stripe customer portal button to the navbar
++ Updated the expense costs and message on the Donate page
++ Fixed a pricing table issue that caused the platinum panel to slightly stretch past the other panels
+- Removed Facebook social media links from the home page and footer

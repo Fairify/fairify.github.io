@@ -97,6 +97,48 @@ h6,
     margin-top:5px;
 }
 
+/*** Announcement Banner ***/
+
+@media (max-width: 1066.66px) {
+
+    .announcement-banner {
+        background-color: #1c1c26;
+        color: #ffffff;
+        padding: 15px 0;
+        text-align: center;
+        font-weight: bold;
+        border-bottom: 2px solid #e0e0e0;
+        height: 60px;
+        font-size: 2.5vmin;
+    }
+    
+    }
+
+@media (min-width: 1066.66px) {
+
+.announcement-banner {
+    background-color: #1c1c26;
+    color: #ffffff;
+    padding: 15px 0;
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 2px solid #e0e0e0;
+    height: 3.5em;
+    font-size: 1em;
+}
+
+}
+
+.announcement-banner a {
+    color: #7573da;
+    text-decoration: underline;
+}
+
+.announcement-banner a:hover {
+    color: #6419ff;
+}
+
+
 /*** Navbar ***/
 .navbar-light .navbar-nav .nav-link {
     position: relative;
@@ -134,7 +176,6 @@ h6,
 @media (max-width: 991.98px) {
     .sticky-top.navbar-light {
         position: relative;
-        background: #FFFFFF;
     }
 
     .navbar-light .navbar-collapse {

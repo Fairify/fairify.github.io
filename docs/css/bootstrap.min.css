@@ -3131,13 +3131,26 @@ fieldset:disabled .btn {
     color: #000;
     background-color: #4777f5;
     border-color: #4777f5;
-    margin: 1rem 1rem;
+    margin: 0 1rem;
 }
 
 .btn-secondary:hover {
     color: #000;
     background-color: #6496f5;
     border-color: #6496f5
+}
+
+.btn-stripe {
+    color: #000;
+    background-color: #625bfa;
+    border-color: #625bfa;
+    margin: 1rem 1rem;
+}
+
+.btn-stripe:hover {
+    color: #000;
+    background-color: #514cc4;
+    border-color: #514cc4;
 }
 
 /*
@@ -3155,8 +3168,18 @@ fieldset:disabled .btn {
 .btn-secondary.active,
 .show>.btn-secondary.dropdown-toggle {
     color: #000;
-    background-color: #6c92f7;
-    border-color: #5985f6
+    background-color: #6496f5;
+    border-color: #6496f5
+}
+
+.btn-check:checked+.btn-stripe,
+.btn-check:active+.btn-stripe,
+.btn-stripe:active,
+.btn-stripe.active,
+.show>.btn-stripe.dropdown-toggle {
+    color: #000;
+    background-color: #514cc4;
+    border-color: #514cc4
 }
 
 /*
@@ -3174,6 +3197,13 @@ fieldset:disabled .btn {
     color: #000;
     background-color: #4777F5;
     border-color: #4777F5
+}
+
+.btn-stripe:disabled,
+.btn-stripe.disabled {
+    color: #000;
+    background-color: #625bfa;
+    border-color: #625bfa
 }
 
 .btn-success {
