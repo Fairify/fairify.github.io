@@ -1,3 +1,9 @@
+B-202406012
+
++ Updated the Premium button in the pricing table
+
+
+
 B-202406011
 
 + Added Fairify Logo to docs/img folder
@@ -6,7 +12,7 @@ B-202406011
 
 B-202405312
 
-+ Modified the home page head code.
++ Modified the home page head code
 
 
 
