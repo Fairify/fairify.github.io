@@ -1,3 +1,9 @@
+B-202406011
+
++ Added Fairify Logo to docs/img folder
+
+
+
 B-202405312
 
 + Modified the home page head code.
