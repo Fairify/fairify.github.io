@@ -1,3 +1,9 @@
+B-202406021
+
++ Updated the team panels on the About page
+
+
+
 B-202406012
 
 + Updated the Premium button in the pricing table

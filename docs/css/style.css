@@ -452,8 +452,8 @@ h6,
 .team-item::after {
     position: absolute;
     content: "";
-    top: 3rem;
-    right: 3rem;
+    top: 25%;
+    right: 0;
     bottom: 0;
     left: 0;
     border-radius: 10px;
@@ -468,19 +468,19 @@ h6,
 }
 
 .team-item h5,
-.team-item small {
+.team-item small,
+.team-item p {
     transition: .5s;
 }
 
 .team-item:hover h5,
-.team-item:hover small {
+.team-item:hover small,
+.team-item:hover p {
     color: var(--light);
 }
 
 .team-note {
-    text-align: center;
-    margin-right: 50px;
-    color:#707070
+    color:#707070;
 }
 
 
