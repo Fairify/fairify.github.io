@@ -1,3 +1,18 @@
+B-202406031
+
++ Added a refund policy page
++ Added an attributions page
++ Added a community testimonial section to the Home page
++ Updated the footer
++ Updated the opt-in email policy update heading on all policy pages
++ Updated the icon library for Font Awesome and Bootstrap
++ Updated the "Return To Top" button to a magenta color
++ Fixed an issue that caused the announcement to cut off in the announcement bar
++ Fixed a navbar issue on the Cookie Policy & 404 page that caused the Home link to be active
+- Removed a Facebook social media link from the About page
+
+
+
 B-202406021
 
 + Updated the team panels on the About page
@@ -18,7 +33,7 @@ B-202406011
 
 B-202405312
 
-+ Modified the home page head code
++ Updated the Home page head code
 
 
 
@@ -28,4 +43,4 @@ B-202405311
 + Added a Stripe customer portal button to the navbar
 + Updated the expense costs and message on the Donate page
 + Fixed a pricing table issue that caused the platinum panel to slightly stretch past the other panels
-- Removed Facebook social media links from the home page and footer
+- Removed Facebook social media links from the Home page and footer

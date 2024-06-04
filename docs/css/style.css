@@ -32,11 +32,11 @@
 /*** Icons ***/
 
 .bi-check {
-    color:#8273da;
+    color: #8273da;
 }
 
 .bi-x {
-    color:#dc3545;
+    color: #dc3545;
 }
 
 
@@ -94,38 +94,33 @@ h6,
 
 .btn-grow:hover {
     transform: scale(1.1);
-    margin-top:5px;
+    margin-top: 5px;
 }
 
 /*** Announcement Banner ***/
 
-@media (max-width: 1066.66px) {
-
-    .announcement-banner {
-        background-color: #1c1c26;
-        color: #ffffff;
-        padding: 15px 0;
-        text-align: center;
-        font-weight: bold;
-        border-bottom: 2px solid #e0e0e0;
-        height: 60px;
-        font-size: 2.5vmin;
-    }
-    
-    }
-
-@media (min-width: 1066.66px) {
-
 .announcement-banner {
     background-color: #1c1c26;
     color: #ffffff;
-    padding: 15px 0;
     text-align: center;
     font-weight: bold;
     border-bottom: 2px solid #e0e0e0;
-    height: 3.5em;
-    font-size: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.announcement-banner p {
+    padding: 1vw;
+}
+
+@media (min-width: 1066.66px) {
+
+    .announcement-banner {
+        height: 3.5em;
+        font-size: 1em;
+        padding: 15px 0;
+    }
 
 }
 
@@ -160,8 +155,7 @@ h6,
 }
 
 .navbar-light .navbar-brand h1 {
-    color: #FFFFFF
-    ;
+    color: #FFFFFF;
 }
 
 .navbar-light .navbar-brand img {
@@ -214,7 +208,7 @@ h6,
         border-bottom: 1px solid rgba(256, 256, 256, .1);
         z-index: 999;
     }
-    
+
     .sticky-top.navbar-light {
         position: fixed;
         background: rgba(32, 28, 28, 0.85);
@@ -389,16 +383,16 @@ h6,
 }
 
 .service-tag-free {
-    background-color:rgb(200,255,200);
+    background-color: rgb(200, 255, 200);
     color: darkolivegreen;
-    font-size:100%;
+    font-size: 100%;
     font-weight: 500;
     width: 75px;
     border-radius: 100px;
 }
 
 .service-tag-paid {
-    background-color:rgb(255, 255, 100);
+    background-color: rgb(255, 255, 100);
     color: darkgoldenrod;
     font-size: 100%;
     font-weight: 500;
@@ -408,6 +402,7 @@ h6,
 
 
 /*** Testimonial ***/
+
 .newsletter,
 .testimonial {
     background:
@@ -439,6 +434,27 @@ h6,
 
 .testimonial-carousel .owl-item.center .testimonial-item h6 {
     color: var(--dark) !important;
+}
+
+@media (max-width: 1010.5px) {
+
+    .verified {
+        position: relative;
+        width: 50px !important;
+        height: 50px !important;
+        top: 50px !important;
+    }
+
+}
+
+@media (min-width: 1010.5px) {
+
+    .verified {
+        position: relative;
+        width: 50px !important;
+        height: 50px !important;
+    }
+
 }
 
 
@@ -480,7 +496,7 @@ h6,
 }
 
 .team-note {
-    color:#707070;
+    color: #707070;
 }
 
 
@@ -599,7 +615,7 @@ h6,
 .footer .copyright {
     padding: 25px 0;
     font-size: 14px;
-    border-top: 1px solid rgba(256, 256, 256, .1);
+    border-top: 2px solid rgba(256, 256, 256, .1);
 }
 
 .footer .copyright a {
@@ -609,7 +625,7 @@ h6,
 .footer .footer-menu a {
     margin-right: 15px;
     padding-right: 15px;
-    border-right: 1px solid rgba(255, 255, 255, .1);
+    border-right: 2px solid rgba(255, 255, 255, .1);
 }
 
 .footer .footer-menu a:last-child {
@@ -685,7 +701,7 @@ h6,
     overflow: hidden;
 }
 
-.pricing-table .ptable-status ,
+.pricing-table .ptable-status,
 .pricing-table .ptable-title,
 .pricing-table .ptable-price,
 .pricing-table .ptable-action {
@@ -764,22 +780,22 @@ h6,
 .pricing-table.table-3 .ptable-body::before {
     position: absolute;
     content: "";
-    width: 0; 
+    width: 0;
     height: 0;
     top: 0;
     right: 0;
-    border-top: 100px solid #2A293E; 
+    border-top: 100px solid #2A293E;
     border-right: 550px solid transparent;
 }
 
 .pricing-table.table-3 .ptable-body::after {
     position: absolute;
     content: "";
-    width: 0; 
+    width: 0;
     height: 0;
     bottom: 0;
     left: 0;
-    border-bottom: 100px solid #2A293E; 
+    border-bottom: 100px solid #2A293E;
     border-left: 550px solid transparent;
 }
 
@@ -788,7 +804,7 @@ h6,
 }
 
 .pricing-table.table-3 .ptable-item.premium .ptable-body::after {
-    border-bottom: 100px solid #6956ad; 
+    border-bottom: 100px solid #6956ad;
 }
 
 .pricing-table.table-3 .ptable-item.basic .ptable-body::before {
@@ -796,7 +812,7 @@ h6,
 }
 
 .pricing-table.table-3 .ptable-item.basic .ptable-body::after {
-    border-bottom: 100px solid #b297f4; 
+    border-bottom: 100px solid #b297f4;
 }
 
 .pricing-table.table-3 .ptable-description ul {
@@ -893,15 +909,15 @@ h6,
     display: inline-block;
     width: 60px;
     height: 34px;
-  }
-  
-  .switch input {
+}
+
+.switch input {
     opacity: 0;
     width: 0;
     height: 0;
-  }
-  
-  .slider {
+}
+
+.slider {
     position: absolute;
     cursor: pointer;
     top: 0;
@@ -911,12 +927,12 @@ h6,
     background-color: #6c757d;
     -webkit-transition: 0.4s;
     transition: 0.4s;
-  
+
     transform: translate(0px, 0px);
 
-  }
-  
-  .slider:before {
+}
+
+.slider:before {
     position: absolute;
     content: "";
     height: 26px;
@@ -926,74 +942,72 @@ h6,
     background-color: white;
     -webkit-transition: 0.4s;
     transition: 0.4s;
-  }
-  
-  input:checked + .slider {
+}
+
+input:checked+.slider {
     background-color: #6419ff;
     transition: 0.4s;
-  }
-  
-  input:checked + .slider:before {
+}
+
+input:checked+.slider:before {
     -webkit-transform: translateX(26px);
     -ms-transform: translateX(26px);
     transform: translateX(26px);
-  }
-  
-  .slider.round {
+}
+
+.slider.round {
     border-radius: 34px;
-  }
-  
-  .slider.round:before {
+}
+
+.slider.round:before {
     border-radius: 50%;
-  }
+}
 
-  /* --- Monthly Expenses Table --- */
+/* --- Monthly Expenses Table --- */
 
-  .simple-table-wrapper {
+.simple-table-wrapper {
     padding: 100px 25%;
-  }
-  
-  .simple-table {
+}
+
+.simple-table {
     width: 100%;
     border-spacing: 0;
-  }
+}
 
-  .simple-table td.cell {
+.simple-table td.cell {
     border-right: 2px solid #2b0080;
     border-bottom: 2px solid #2b0080;
     word-break: break-word;
     background-color: #6419ff;
     width: 33.333333333333%;
-  }
+}
 
-  .simple-table td.cell .paragraph {
+.simple-table td.cell .paragraph {
     width: 90%;
     margin: 0 5%;
     padding-bottom: 10px;
     padding-top: 10px;
     text-align: left;
-  }
+}
 
-  .simple-table.style-top tr:first-child td,
-  .simple-table.style-side td:first-of-type {
+.simple-table.style-top tr:first-child td,
+.simple-table.style-side td:first-of-type {
     background-color: #2b0080;
-  }
+}
 
-  .simple-table.style-top tr:first-child td .paragraph,
-  .simple-table.style-side td:first-of-type .paragraph {
+.simple-table.style-top tr:first-child td .paragraph,
+.simple-table.style-side td:first-of-type .paragraph {
     font-weight: 700;
-  }
+}
 
-  .simple-table tr:last-child td {
+.simple-table tr:last-child td {
     border-bottom: none;
-  }
+}
 
-  .simple-table td:last-of-type {
+.simple-table td:last-of-type {
     border-right: none;
-  }
+}
 
-  .simple-table .empty-content-area-element {
+.simple-table .empty-content-area-element {
     padding-left: 0px !important;
-  }
-
-  
+}
