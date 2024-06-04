@@ -1,6 +1,12 @@
+B-202406036
+
++ Fixed an issue with the community testimonial section of the Home page
+
+
+
 B-202406035
 
-+ Updated the community testimonial section of the home page
++ Updated the community testimonial section of the Home page
 
 
 
