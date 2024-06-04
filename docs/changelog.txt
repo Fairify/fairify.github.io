@@ -1,3 +1,9 @@
+B-202406032
+
++ Fixed a CSS desync issue
+
+
+
 B-202406031
 
 + Added a refund policy page
