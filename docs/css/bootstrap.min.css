@@ -6297,10 +6297,12 @@ fieldset:disabled .btn {
 .tooltip-container {
     position: absolute;
     display: inline-block;
+    cursor: default !important;
 }
 
 .tooltip-container:hover .tooltip {
     opacity: 0.9;
+    cursor: default !important;
 }
 
 
@@ -6331,6 +6333,7 @@ fieldset:disabled .btn {
         opacity: 0;
         transition: opacity 0.5s ease;
         top: 20px;
+        cursor: default !important;
     }
 
 }
@@ -6361,98 +6364,114 @@ fieldset:disabled .btn {
         opacity: 0;
         transition: opacity 0.5s ease;
         top: -30px;
+        cursor: default !important;
     }
 
 }
 
 .tooltip.show {
     opacity: .9;
+    cursor: default !important;
 }
 
 .tooltip .tooltip-arrow {
     position: absolute;
     display: block;
     width: .8rem;
-    height: .4rem
+    height: .4rem;
+    cursor: default !important;
 }
 
 .tooltip .tooltip-arrow::before {
     position: absolute;
     content: "";
     border-color: transparent;
-    border-style: solid
+    border-style: solid;
+    cursor: default !important;
 }
 
 .bs-tooltip-top,
 .bs-tooltip-auto[data-popper-placement^="top"] {
-    padding: .4rem 0
+    padding: .4rem 0;
+    cursor: default !important;
 }
 
 .bs-tooltip-top .tooltip-arrow,
 .bs-tooltip-auto[data-popper-placement^="top"] .tooltip-arrow {
-    bottom: 0
+    bottom: 0;
+    cursor: default !important;
 }
 
 .bs-tooltip-top .tooltip-arrow::before,
 .bs-tooltip-auto[data-popper-placement^="top"] .tooltip-arrow::before {
     top: -1px;
     border-width: .4rem .4rem 0;
-    border-top-color: #000
+    border-top-color: #000;
+    cursor: default !important;
 }
 
 .bs-tooltip-end,
 .bs-tooltip-auto[data-popper-placement^="right"] {
-    padding: 0 .4rem
+    padding: 0 .4rem;
+    cursor: default !important;
 }
 
 .bs-tooltip-end .tooltip-arrow,
 .bs-tooltip-auto[data-popper-placement^="right"] .tooltip-arrow {
     left: 0;
     width: .4rem;
-    height: .8rem
+    height: .8rem;
+    cursor: default !important;
 }
 
 .bs-tooltip-end .tooltip-arrow::before,
 .bs-tooltip-auto[data-popper-placement^="right"] .tooltip-arrow::before {
     right: -1px;
     border-width: .4rem .4rem .4rem 0;
-    border-right-color: #000
+    border-right-color: #000;
+    cursor: default !important;
 }
 
 .bs-tooltip-bottom,
 .bs-tooltip-auto[data-popper-placement^="bottom"] {
-    padding: .4rem 0
+    padding: .4rem 0;
+    cursor: default !important;
 }
 
 .bs-tooltip-bottom .tooltip-arrow,
 .bs-tooltip-auto[data-popper-placement^="bottom"] .tooltip-arrow {
-    top: 0
+    top: 0;
+    cursor: default !important;
 }
 
 .bs-tooltip-bottom .tooltip-arrow::before,
 .bs-tooltip-auto[data-popper-placement^="bottom"] .tooltip-arrow::before {
     bottom: -1px;
     border-width: 0 .4rem .4rem;
-    border-bottom-color: #000
+    border-bottom-color: #000;
+    cursor: default !important;
 }
 
 .bs-tooltip-start,
 .bs-tooltip-auto[data-popper-placement^="left"] {
-    padding: 0 .4rem
+    padding: 0 .4rem;
+    cursor: default !important;
 }
 
 .bs-tooltip-start .tooltip-arrow,
 .bs-tooltip-auto[data-popper-placement^="left"] .tooltip-arrow {
     right: 0;
     width: .4rem;
-    height: .8rem
+    height: .8rem;
+    cursor: default !important;
 }
 
 .bs-tooltip-start .tooltip-arrow::before,
 .bs-tooltip-auto[data-popper-placement^="left"] .tooltip-arrow::before {
     left: -1px;
     border-width: .4rem 0 .4rem .4rem;
-    border-left-color: #000
+    border-left-color: #000;
+    cursor: default !important;
 }
 
 .tooltip-inner {
@@ -6461,7 +6480,8 @@ fieldset:disabled .btn {
     color: #fff;
     text-align: center;
     background-color: #000;
-    border-radius: 10px
+    border-radius: 10px;
+    cursor: default !important;
 }
 
 .popover {

@@ -422,6 +422,7 @@ h6,
 .testimonial-carousel .owl-item.center .testimonial-item {
     background: var(--light) !important;
     border-color: var(--light);
+    cursor: grab;
 }
 
 .testimonial-carousel .owl-item.center .testimonial-item * {
@@ -430,6 +431,7 @@ h6,
 
 .testimonial-carousel .owl-item.center .testimonial-item i {
     color: var(--primary) !important;
+    cursor: grab;
 }
 
 .testimonial-carousel .owl-item.center .testimonial-item h6 {
