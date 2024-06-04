@@ -1,3 +1,9 @@
+B-202406041
+
++ Updated the Attributions page
+
+
+
 B-202406036
 
 + Fixed an issue with the community testimonial section of the Home page
