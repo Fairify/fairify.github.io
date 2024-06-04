@@ -1,6 +1,7 @@
 B-202406034
 
 + Updated the team panels on the About page
++ Updated the head code for all pages
 + Fixed a minor spacing issue in the footer
 
 
