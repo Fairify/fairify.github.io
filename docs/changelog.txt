@@ -1,3 +1,9 @@
+B-202406043
+
++ Fixed an issue that caused the "Go Back To Home" button to open in a new tab on the 404 page
+
+
+
 B-202406042
 
 + Added a footnote to the community testimonial section of the Home page
