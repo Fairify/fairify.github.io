@@ -414,6 +414,15 @@ h6,
     background-repeat: no-repeat;
 }
 
+.inputFieldError {
+    position: absolute;
+    color: #ff1744;
+}
+
+#emailAddress {
+    transition: background-color 0.5s ease;
+}
+
 .testimonial-carousel .owl-item .testimonial-item,
 .testimonial-carousel .owl-item.center .testimonial-item * {
     transition: .5s;

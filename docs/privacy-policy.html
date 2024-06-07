@@ -132,24 +132,40 @@
                 <div class="row g-5">
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                         <p class="mb-4">
-                            <strong>Privacy Policy</strong>
+                            <h1>Privacy Policy</h1>
                             <br><br>
                             At Fairify, we take your privacy seriously. This Privacy Policy outlines the types of personal information we collect and how we use, share, and protect that information.
                             <br><br>
-                            <strong>Information We Collect</strong>
+                            <h3>Information We Collect</h3>
+                            <br>
+                            When you submit a case to Fairify, we collect your email address, username, and the platform on which the moderation situation occurred, including the online community name. We use this information to effectively review your case, contact you regarding updates on your case, and reference your username when coordinating an investigation with the moderators of the online community you provided.
                             <br><br>
-                            When you submit a case to us, we collect your email address, username, the platform on which the moderation situation occurred, and the server/subreddit where the moderation situation occurred. We use this information to contact you regarding updates on your case and to reference your username when coordinating an investigation with the moderators.
+                            <h3>Cookies</h3>
+                            <br>
+                            We may use cookies on our website to enhance your user experience. Please review our <a href="cookie-policy">Cookie Policy</a> for more information on the types of cookies, how we use them, and how you can manage your preferences.
                             <br><br>
-                            <strong>Cookies</strong>
+                            <h3>Data Retention</h3>
+                            <br>
+                            We will retain your case information for the following purposes:
+                            <br>
+                            • To provide a comprehensive review of moderation actions
+                            <br>
+                            • To maintain a record of resolved cases
+                            <br>
+                            • To allow users to access their case history
+                            <br>
+                            • To uphold the integrity of our review process
                             <br><br>
-                            We use cookies on our website to anonymously track the average number of page views, overall visits, and unique visits. This information is used solely for statistical purposes and does not allow us to retrieve or store any personal information about the visitor.
+                            We may retain case information for an indefinite period under the following conditions:
+                            <br>
+                            • The data will be retained as long as it serves the purposes mentioned above
+                            <br>
+                            • The retention period will be regularly reviewed to ensure compliance with data minimization principles
+                            <br>
+                            • Users will be informed of any significant changes to the retention period
                             <br><br>
-                            <strong>Data Retention</strong>
-                            <br><br>
-                            We retain case information for three months before it is erased internally; This includes your email address, username, platform, server/subreddit, and case ID. After this period, your personal information is deleted permanently from our records.
-                            <br><br>
-                            <strong>Sharing of Personal Information</strong>
-                            <br><br>
+                            <h3>Sharing of Personal Information</h3>
+                            <br>
                             We do not share your personal information with anyone outside of our organization except in the following circumstances:
                             <br>
                             • If required to do so by law
@@ -158,21 +174,21 @@
                             <br>
                             • To the moderators to coordinate an investigation of your case, we only share your username and not your personal information.
                             <br><br>
-                            <strong>Data Security</strong>
+                            <h3>Data Security</h3>
+                            <br>
+                            We take data security seriously and have implemented appropriate measures to safeguard your personal information from unauthorized access, alteration, disclosure, or destruction. We use a strong password and two-factor authentication for our main Fairify account, and we limit access to your personal information to only those board members who require it for their investigation.
                             <br><br>
-                            We take data security seriously and have implemented appropriate measures to safeguard your personal information from unauthorized access, alteration, disclosure, or destruction. We use a strong password and two-factor authentication for our main Fairify account, and we limit access to your personal information to only those employees who require it for their job.
+                            <h3>Updates to Our Privacy Policy</h3>
+                            <br>
+                            We may update this Privacy Policy from time to time. If we make any changes, we will notify those who have opted-in to receive policy updates via email.
                             <br><br>
-                            <strong>Updates to Our Privacy Policy</strong>
-                            <br><br>
-                            We may update this Privacy Policy from time to time. If we make significant changes, we will notify those who have opted-in to receive privacy policy updates via email.
-                            <br><br>
-                            <strong>Contact Us</strong>
-                            <br><br>
+                            <h3>Contact Us</h3>
+                            <br>
                             If you have any questions or concerns about this Privacy Policy, contact us at <a href="mailto:fairifymoderation@gmail.com">fairifymoderation@gmail.com</a>.
                             <br><br><br>
                             <strong>Effective Date:</strong> 02/12/2023
                             <br><br>
-                            <strong>Last Revision:</strong> 02/16/2023
+                            <strong>Last Revision:</strong> 06/06/2024
                             </p>
                     </div>
                 </div>
@@ -186,9 +202,11 @@
                 <div class="row align-items-center" style="height: 250px;">
                     <div class="col-12 col-md-6">
                         <h3 class="text-white">Opt-in to policy updates</h3>
-                        <div class="position-relative w-100 mt-3">
-                            <input class="form-control border-0 rounded-pill w-100 ps-4 pe-5" type="text" placeholder="Enter Your Email" style="height: 48px;">
-                            <button type="button" class="btn shadow-none position-absolute top-0 end-0 mt-1 me-2"><i class="fa fa-paper-plane text-primary fs-4"></i></button>
+                        <div class="inputArea position-relative w-100 mt-3">
+                            <div class="inputField">
+                            <input id="emailAddress" class="form-control border-0 rounded-pill w-100 ps-4 pe-5" type="text" placeholder="Enter Your Email" style="height: 48px">
+                            <button id="optInPolicyUpdates" type="button" class="btn shadow-none position-absolute top-0 end-0 mt-1 me-2"><i class="fa fa-paper-plane text-primary fs-4"></i></button>
+                            </div>
                         </div>
                     </div>
                     <div class="col-md-6 text-center mb-n5 d-none d-md-block">
@@ -290,6 +308,9 @@
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
     <script src="lib/isotope/isotope.pkgd.min.js"></script>
     <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Policy Updates Opt-In -->
+    <script src="js/optInPolicyUpdates.js"></script>
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>

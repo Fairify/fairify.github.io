@@ -1,3 +1,12 @@
+B-202406071
+
++ Added the ability to opt-in to policy updates
++ Added a cookie controls banner to the Home page
++ Added more content to the About page
++ Updated the team panels on the About page
+
+
+
 B-202406043
 
 + Fixed an issue that caused the "Go Back To Home" button to open in a new tab on the 404 page

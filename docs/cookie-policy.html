@@ -134,51 +134,58 @@
                 <div class="row g-5">
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                         <p class="mb-4">
-                            <strong>Cookie Policy</strong>
+                            <h1>Cookie Policy</h1>
                             <br><br>
-                            At Fairify, we may use cookies to enhance your user experience and to analyze website usage.
-                            This policy explains the types of cookies used, how we use them, and how you can manage your
-                            preferences.
+                            At Fairify, we may use cookies to enhance your user experience. This policy explains the types of cookies used, how we use them, and how you can manage your preferences.
                             <br><br>
-                            <strong>Necessary Cookies</strong>
+                            <h3>Necessary Cookies</h3>
+                            <br>
+                            <h6>Cloudflare</h6>
+                            We use Cloudflare cookies to identify individual clients behind a shared IP address and apply security settings per client. These cookies are necessary for the security and performance of our website.
                             <br><br>
-                            We do not use necessary cookies on our website.
+                            <h6>Fastly CDN</h6>
+                            Fastly CDN cookies speed up page load times and enhance your experience by distributing content delivery across multiple servers.
+                            <br><br><br>
+                            <h3>Functionality Cookies</h3>
+                            <br>
+                            <h6>Font Awesome</h6>
+                            We use Font Awesome cookies to load icons and graphics that enhance our website's visual appeal and user interface.
                             <br><br>
-                            <strong>Analytics Cookies</strong>
-                            <br><br>
+                            <h6>GitHub Pages</h6>
+                            We use GitHub Pages cookies to provide and improve the hosting services of our website, ensuring efficient and reliable access.
+                            <br><br><br>
+                            <h3>Analytics Cookies</h3>
+                            <br>
                             We do not use analytical cookies on our website.
-                            <br><br>
-                            <strong>Third-Party Cookies</strong>
-                            <br><br>
+                            <br><br><br>
+                            <h3>Third-Party Cookies</h3>
+                            <br>
                             We do not use third-party cookies on our website.
-                            <br><br>
-                            <strong>Functionality Cookies</strong>
-                            <br><br>
-                            We do not use functionality cookies on our website.
-                            <br><br>
-                            <strong>Advertising and Marketing Cookies</strong>
-                            <br><br>
+                            <br><br><br>
+                            <h3>Advertising and Marketing Cookies</h3>
+                            <br>
                             We do not use advertising or marketing cookies on our website.
-                            <br><br>
-                            <strong>First-Party Cookies</strong>
-                            <br><br>
+                            <br><br><br>
+                            <h3>First-Party Cookies</h3>
+                            <br>
                             We do not use first-party cookies on our website.
+                            <br><br><br>
+                            <h3>Managing Your Preferences</h3>
+                            <br>
+                            When you visit our website, you will receive a pop-up banner at the bottom of the page asking you to accept or reject cookies. You can manage your preferences by clicking on the "Learn more" button in the banner. You can also manage your settings through your browser preferences.
                             <br><br>
-                            <strong>Managing Your Preferences</strong>
+                            <h3>Updates to Our Cookie Policy</h3>
+                            <br>
+                            We may update this Cookie Policy from time to time. If we make any changes, we will notify those who have opted-in to receive policy updates via email.
                             <br><br>
-                            When you visit our website, you will receive a pop-up banner at the bottom of the page
-                            asking you to accept or reject cookies. You can manage your preferences by clicking on the
-                            "Cookie Preferences" button in the banner. You can also manage your settings through your
-                            browser preferences.
-                            <br><br>
-                            <strong>Contact Us</strong>
-                            <br><br>
+                            <h3>Contact Us</h3>
+                            <br>
                             If you have any questions or concerns regarding our Cookie Policy, contact us at
                             <a href="mailto:fairifymoderation@gmail.com">fairifymoderation@gmail.com</a>.
                             <br><br><br>
                             <strong>Effective Date:</strong> 02/16/2023
                             <br><br>
-                            <strong>Last Revision:</strong> 03/14/2023
+                            <strong>Last Revision:</strong> 06/06/2024
                         </p>
                     </div>
                 </div>
@@ -192,9 +199,11 @@
                 <div class="row align-items-center" style="height: 250px;">
                     <div class="col-12 col-md-6">
                         <h3 class="text-white">Opt-in to policy updates</h3>
-                        <div class="position-relative w-100 mt-3">
-                            <input class="form-control border-0 rounded-pill w-100 ps-4 pe-5" type="text" placeholder="Enter Your Email" style="height: 48px;">
-                            <button type="button" class="btn shadow-none position-absolute top-0 end-0 mt-1 me-2"><i class="fa fa-paper-plane text-primary fs-4"></i></button>
+                        <div class="inputArea position-relative w-100 mt-3">
+                            <div class="inputField">
+                            <input id="emailAddress" class="form-control border-0 rounded-pill w-100 ps-4 pe-5" type="text" placeholder="Enter Your Email" style="height: 48px;">
+                            <button id="optInPolicyUpdates" type="button" class="btn shadow-none position-absolute top-0 end-0 mt-1 me-2"><i class="fa fa-paper-plane text-primary fs-4"></i></button>
+                            </div>
                         </div>
                     </div>
                     <div class="col-md-6 text-center mb-n5 d-none d-md-block">
@@ -296,6 +305,9 @@
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
     <script src="lib/isotope/isotope.pkgd.min.js"></script>
     <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Policy Updates Opt-In -->
+    <script src="js/optInPolicyUpdates.js"></script>
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
