@@ -1,3 +1,9 @@
+B-202406072
+
+- Removed cookie controls banner from the Home page until bug fixes can be resolved
+
+
+
 B-202406071
 
 + Added the ability to opt-in to policy updates
