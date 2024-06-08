@@ -1,3 +1,11 @@
+B-202406081
+
++ Updated the images for the About page
++ Updated the About Fairify section image of the Home page
++ Updated the Attributions page
+
+
+
 B-202406072
 
 - Removed cookie controls banner from the Home page until bug fixes can be resolved
