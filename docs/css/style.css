@@ -110,10 +110,6 @@ h6,
     justify-content: center;
 }
 
-.announcement-banner p {
-    padding: 1vw;
-}
-
 @media (min-width: 1066.66px) {
 
     .announcement-banner {
