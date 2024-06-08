@@ -1,3 +1,9 @@
+B-202406083
+
++ Updated the "Contact Us" link on the Attributions page to include a pre-filled subject
+
+
+
 B-202406082
 
 + Updated the announcement banner dimensions
