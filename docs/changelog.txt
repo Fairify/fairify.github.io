@@ -1,3 +1,9 @@
+B-202406086
+
++ Updated the <head> code for all pages
+
+
+
 B-202406085
 
 + Updated the announcement banner message
@@ -80,7 +86,7 @@ B-202406035
 B-202406034
 
 + Updated the team panels on the About page
-+ Updated the head code for all pages
++ Updated the <head> code for all pages
 + Fixed a minor spacing issue in the footer
 
 
@@ -132,7 +138,7 @@ B-202406011
 
 B-202405312
 
-+ Updated the Home page head code
++ Updated the Home page <head> code
 
 
 
