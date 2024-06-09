@@ -1,6 +1,12 @@
+B-202406091
+
++ Updated the contact email on all pages
+
+
+
 B-202406086
 
-+ Updated the <head> code for all pages
++ Updated the <head> code on all pages
 
 
 
@@ -12,7 +18,7 @@ B-202406085
 
 B-202406084
 
-+ Updated the layout for all policy pages
++ Updated the layout on all policy pages
 - Removed cookie controls banner entirely, as we do not use cookies
 
 
@@ -31,7 +37,7 @@ B-202406082
 
 B-202406081
 
-+ Updated the images for the About page
++ Updated the images on the About page
 + Updated the About Fairify section image of the Home page
 + Updated the Attributions page
 
@@ -86,7 +92,7 @@ B-202406035
 B-202406034
 
 + Updated the team panels on the About page
-+ Updated the <head> code for all pages
++ Updated the <head> code on all pages
 + Fixed a minor spacing issue in the footer
 
 
