@@ -2163,6 +2163,11 @@ progress {
     -webkit-overflow-scrolling: touch
 }
 
+.content-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 @media (max-width: 575.98px) {
     .table-responsive-sm {
         overflow-x: auto;
@@ -2174,6 +2179,14 @@ progress {
     .table-responsive-md {
         overflow-x: auto;
         -webkit-overflow-scrolling: touch
+    }
+    
+    .content-wrapper .col-lg-6 {
+        order: initial;
+    }
+
+    .content-wrapper img {
+        margin-bottom: 20px;
     }
 }
 

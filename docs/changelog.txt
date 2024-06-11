@@ -1,3 +1,11 @@
+B-202406101
+
++ Updated local page hyperlinks
++ Updated the loading screen
++ Fixed a mobile layout bug on the About page
+
+
+
 B-202406091
 
 + Updated the contact email on all pages

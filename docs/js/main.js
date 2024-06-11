@@ -3,15 +3,50 @@
 
     // Spinner
     var spinner = function () {
-        setTimeout(function () {
-            if ($('#spinner').length > 0) {
-                $('#spinner').removeClass('show');
+        var currentStatus = document.getElementById('current-status');
+        var spinnerElement = $('#spinner');
+        var body = $('body');
+        var counter = 0;
+
+        setTimeout(function() {
+            if (spinnerElement.length === 0) {
+                clearInterval(interval);
+            } else {
+                setTimeout(function() {
+                    spinnerElement.removeClass('show');
+                    body.removeClass('overflow-hidden')
+                }, 1)
+                
             }
-        }, 1);
+        }, 1)
+
+        var interval = setInterval(function () {
+            switch (counter % 3) {
+                case 0:
+                    currentStatus.textContent = 'Loading.';
+                    break;
+                case 1:
+                    currentStatus.textContent = 'Loading..';
+                    break;
+                case 2:
+                    currentStatus.textContent = 'Loading...';
+                    break;
+            }
+            counter++;
+        }, 500);
+
+        setTimeout(function() {
+
+            $('.text-danger.invisible').fadeOut(1000, function() {
+
+                $(this).removeClass('invisible').fadeIn(1000);
+
+            });
+        }, 3000);
     };
     spinner();
-    
-    
+
+
     // Initiate the wowjs
     new WOW().init();
 
@@ -24,36 +59,36 @@
             $('.navbar').removeClass('sticky-top shadow-sm');
         }
     });
-    
-    
+
+
     // Dropdown on mouse hover
     const $dropdown = $(".dropdown");
     const $dropdownToggle = $(".dropdown-toggle");
     const $dropdownMenu = $(".dropdown-menu");
     const showClass = "show";
-    
-    $(window).on("load resize", function() {
+
+    $(window).on("load resize", function () {
         if (this.matchMedia("(min-width: 992px)").matches) {
             $dropdown.hover(
-            function() {
-                const $this = $(this);
-                $this.addClass(showClass);
-                $this.find($dropdownToggle).attr("aria-expanded", "true");
-                $this.find($dropdownMenu).addClass(showClass);
-            },
-            function() {
-                const $this = $(this);
-                $this.removeClass(showClass);
-                $this.find($dropdownToggle).attr("aria-expanded", "false");
-                $this.find($dropdownMenu).removeClass(showClass);
-            }
+                function () {
+                    const $this = $(this);
+                    $this.addClass(showClass);
+                    $this.find($dropdownToggle).attr("aria-expanded", "true");
+                    $this.find($dropdownMenu).addClass(showClass);
+                },
+                function () {
+                    const $this = $(this);
+                    $this.removeClass(showClass);
+                    $this.find($dropdownToggle).attr("aria-expanded", "false");
+                    $this.find($dropdownMenu).removeClass(showClass);
+                }
             );
         } else {
             $dropdown.off("mouseenter mouseleave");
         }
     });
-    
-    
+
+
     // Back to top button
     $(window).scroll(function () {
         if ($(this).scrollTop() > 100) {
@@ -63,7 +98,7 @@
         }
     });
     $('.back-to-top').click(function () {
-        $('html, body').animate({scrollTop: 0}, 0, 'easeInOutExpo');
+        $('html, body').animate({ scrollTop: 0 }, 0, 'easeInOutExpo');
         return false;
     });
 
@@ -77,17 +112,17 @@
         loop: true,
         center: true,
         responsive: {
-            0:{
-                items:1
+            0: {
+                items: 1
             },
-            576:{
-                items:1
+            576: {
+                items: 1
             },
-            768:{
-                items:2
+            768: {
+                items: 2
             },
-            992:{
-                items:3
+            992: {
+                items: 3
             }
         }
     });
@@ -102,8 +137,8 @@
         $("#portfolio-flters li").removeClass('active');
         $(this).addClass('active');
 
-        portfolioIsotope.isotope({filter: $(this).data('filter')});
+        portfolioIsotope.isotope({ filter: $(this).data('filter') });
     });
-    
+
 })(jQuery);
 

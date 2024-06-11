@@ -20,7 +20,7 @@
     <meta property="og:image" content="https://fairify.net/img/fairify_logo.png">
 
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
+    <link href="../img/favicon.ico" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -32,23 +32,30 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
 
     <!-- Libraries Stylesheet -->
-    <link href="lib/animate/animate.min.css" rel="stylesheet">
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="../lib/animate/animate.min.css" rel="stylesheet">
+    <link href="../lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="../lib/lightbox/css/lightbox.min.css" rel="stylesheet">
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Template Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
 </head>
 
-<body>
+<body class="overflow-hidden">
     <div class="bg-dark p-0">
         <!-- Spinner Start -->
-        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-            <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+        <div id="spinner" class="show bg-dark position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center flex-column">
+            <img class="mb-3" src="../img/logo.png" alt="logo">
+            <div class="spinner-grow text-primary mb-3" style="width: 3rem; height: 3rem;" role="status">
                 <span class="sr-only">Loading...</span>
+            </div>
+            <p id="current-status">Loading...</p>
+            <div id="status-message" class="px-3">
+                <p class="text-danger invisible"><i class="fa-solid fa-circle-exclamation pt-3 ps-2 me-2"></i>This page is taking longer to load than expected.
+                    <br><br>
+                    Please <a href="https://www.x.com/FairifyOfficial">check here</a> for status updates.</p>
             </div>
         </div>
         <!-- Spinner End -->
@@ -57,17 +64,17 @@
         <!-- Navbar & Hero Start -->
         <div class="position-relative p-0">
             <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
-                <a href="index" class="navbar-brand p-0">
-                    <img src="img/logo.png" alt="Logo">
+                <a href="../" class="navbar-brand p-0">
+                    <img src="../img/logo.png" alt="Logo">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                     <span class="fa fa-bars"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto py-0 px-5">
-                        <a href="index" class="nav-item nav-link">Home</a>
-                        <a href="about" class="nav-item nav-link">About</a>
-                        <a href="services" class="nav-item nav-link active">Services</a>
+                        <a href="../" class="nav-item nav-link">Home</a>
+                        <a href="../about" class="nav-item nav-link">About</a>
+                        <a href="./" class="nav-item nav-link active">Services</a>
                         <!-- <a href="project" class="nav-item nav-link">Project</a> -->
                         <!--<div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
@@ -81,7 +88,7 @@
                     </div>
                     <!-- <butaton type="button" class="btn text-secondary ms-4" data-bs-toggle="modal" data-bs-target="#searchModal" style="user-select:none; pointer-events:none;"><i class="fa fa-search" style="color:grey;"></i></butaton> -->
                     <a href="https://billing.stripe.com/p/login/cN2aGt2eg5ZA6A0fYY" target="_blank" class="btn btn-stripe text-light rounded-pill py-2 px-4 ms-3d"><i class="fa-brands fa-stripe-s pe-2"></i>Portal</a>
-                    <a href="donate" class="btn btn-secondary text-light rounded-pill py-2 px-4 ms-3d"><i class="fa fa-cart-plus pe-2"></i>Donate</a>
+                    <a href="../donate" class="btn btn-secondary text-light rounded-pill py-2 px-4 ms-3d"><i class="fa fa-cart-plus pe-2"></i>Donate</a>
                 </div>
             </nav>
 
@@ -94,7 +101,7 @@
                             <hr class="bg-white mx-auto mt-0" style="width: 90px;">
                             <nav aria-label="breadcrumb">
                                 <ol class="breadcrumb justify-content-center">
-                                    <li class="breadcrumb-item"><a class="text-white" href="index">Home</a></li>
+                                    <li class="breadcrumb-item"><a class="text-white" href="../">Home</a></li>
                                     <!-- <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li> -->
                                     <li class="breadcrumb-item text-white active" aria-current="page">Services</li>
                                 </ol>
@@ -181,8 +188,8 @@
                     </div>
                     <div class="col-md-6 col-lg-3">
                         <h5 class="text-white mb-4">Popular Links</h5>
-                        <a class="btn btn-link" href="about">About</a>
-                        <a class="btn btn-link" href="services">Services</a>
+                        <a class="btn btn-link" href="../about">About</a>
+                        <a class="btn btn-link" href="./">Services</a>
                         <a class="btn btn-link" href="https://forms.gle/hDqdQS7kkoTv4nqV8" target="_blank">Contact Us</a>
                         
                     </div>
@@ -226,13 +233,13 @@
                         </div>
                         <div class="text-center">
                             <div class="footer-menu">
-                                <a href="index">Home</a>
-                                <a href="about">About</a>
-                                <a href="services">Services</a>
-                                <a href="attributions">Attributions</a>
-                                <a href="privacy-policy">Privacy</a>
-                                <a href="cookie-policy">Cookies</a>
-                                <a href="refund-policy">Refunds</a>
+                                <a href="../">Home</a>
+                                <a href="../about">About</a>
+                                <a href="./">Services</a>
+                                <a href="../attributions">Attributions</a>
+                                <a href="../privacy-policy">Privacy</a>
+                                <a href="../cookie-policy">Cookies</a>
+                                <a href="../refund-policy">Refunds</a>
                             </div>
                         </div>
                 </div>
@@ -248,12 +255,12 @@
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/wow/wow.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="lib/isotope/isotope.pkgd.min.js"></script>
-    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <script src="../lib/wow/wow.min.js"></script>
+    <script src="../lib/easing/easing.min.js"></script>
+    <script src="../lib/waypoints/waypoints.min.js"></script>
+    <script src="../lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="../lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="../lib/lightbox/js/lightbox.min.js"></script>
 
     <!-- Server Security Countdown -->
     <script>
@@ -288,7 +295,7 @@
     </script>
 
     <!-- Template Javascript -->
-    <script src="js/main.js"></script>
+    <script src="../js/main.js"></script>
 </body>
 
 </html>

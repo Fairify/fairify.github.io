@@ -43,12 +43,19 @@
     <link href="css/style.css" rel="stylesheet">
 </head>
 
-<body>
+<body class="overflow-hidden">
     <div class="bg-dark p-0">
         <!-- Spinner Start -->
-        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-            <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+        <div id="spinner" class="show bg-dark position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center flex-column">
+            <img class="mb-3" src="img/logo.png" alt="logo">
+            <div class="spinner-grow text-primary mb-3" style="width: 3rem; height: 3rem;" role="status">
                 <span class="sr-only">Loading...</span>
+            </div>
+            <p id="current-status">Loading...</p>
+            <div id="status-message" class="px-3">
+                <p class="text-danger invisible"><i class="fa-solid fa-circle-exclamation pt-3 ps-2 me-2"></i>This page is taking longer to load than expected.
+                    <br><br>
+                    Please <a href="https://www.x.com/FairifyOfficial">check here</a> for status updates.</p>
             </div>
         </div>
         <!-- Spinner End -->
@@ -57,7 +64,7 @@
         <!-- Navbar & Hero Start -->
         <div class="position-relative p-0">
             <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
-                <a href="index" class="navbar-brand p-0">
+                <a href="/" class="navbar-brand p-0">
                     <img src="img/logo.png" alt="Logo">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -65,7 +72,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto py-0 px-5">
-                        <a href="index" class="nav-item nav-link">Home</a>
+                        <a href="/" class="nav-item nav-link">Home</a>
                         <a href="about" class="nav-item nav-link active">About</a>
                         <a href="services" class="nav-item nav-link">Services</a>
                         <!-- <a href="project" class="nav-item nav-link">Project</a> -->
@@ -189,49 +196,49 @@
         <!-- About Start -->
         <div class="container-xxl py-8">
             <div class="container px-lg-5">
-                <div class="row g-5">
+                <div class="row g-5 content-wrapper">
                     <div class="wow fadeInUp" data-wow-delay="0.1s">
                         <div class="section-title position-relative text-center mb-5 pb-2 wow fadeInUp">
                             <h6 class="position-relative d-inline text-primary ps-4">Our Mission</h6>
                             <h2 class="mt-2">Dedicated to Communities</h2>
                         </div>
-                        <div class="d-flex justify-content-center">
-                            <div class="col-lg-6">
+                        <div class="d-flex flex-column flex-lg-row justify-content-center">
+                            <div class="col-lg-6 order-2 order-lg-1">
                                 <p class="mb-5 px-5">
-                                    At Fairify, we understand how crucial fairness and impartiality are in
-                                    moderating online communities. That's why we're here, to give a second opinion and ensure
-                                    fair moderation decisions.
+                                    At Fairify, we understand how crucial fairness and impartiality are in moderating online communities.
+                                    That's why we're here, to give a second opinion and ensure fair moderation decisions.
                                     <br><br>
-                                    Our mission is to offer a place where people and moderators alike can ask for a review,
-                                    giving everyone a fair chance to have their say. We think every decision should be neutral
-                                    with the best level of professionalism and honesty, and that's what we aim to deliver.
+                                    Our mission is to offer a place where people and moderators alike can ask for a review, giving everyone
+                                    a fair chance to have their say. We think every decision should be neutral with the best level of
+                                    professionalism and honesty, and that's what we aim to deliver.
                                     <br><br>
-                                    We're a group of volunteers committed to offering a fair and thorough review of every case
-                                    that comes our way. Our goal is to be the go-to spot for anyone needing a fair and impartial
-                                    take on a moderation decision.
+                                    We're a group of volunteers committed to offering a fair and thorough review of every case that comes
+                                    our way. Our goal is to be the go-to spot for anyone needing a fair and impartial take on a moderation
+                                    decision.
                                     <br><br>
-                                    So if you're looking for a second opinion on a moderation call, look no further than
-                                    Fairify. We're here to bring balance and fairness to the online community, one decision at a
-                                    time.
+                                    So if you're looking for a second opinion on a moderation call, look no further than Fairify. We're here
+                                    to bring balance and fairness to the online community, one decision at a time.
                                 </p>
                             </div>
-                            <div class="col-lg-6">
+                            <div class="col-lg-6 order-1 order-lg-2">
                                 <img class="img-fluid wow zoomIn" data-wow-delay="0.3s" src="img/online_community.jpg" alt="Online Community Illustration" style="user-select:none; pointer-events:none;">
+                                <div class="d-lg-none" style="height: 20px;"></div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="row g-5 py-8">
+                <div class="row g-5 py-8 content-wrapper">
                     <div class="wow fadeInUp" data-wow-delay="0.1s">
                         <div class="section-title position-relative text-center mb-5 pb-2 wow fadeInUp">
                             <h6 class="position-relative d-inline text-primary ps-4">The Issue</h6>
                             <h2 class="mt-2">Power Abuse</h2>
                         </div>
-                        <div class="d-flex justify-content-center">
-                            <div class="col-lg-6">
+                        <div class="d-flex flex-column flex-lg-row justify-content-center">
+                            <div class="col-lg-6 order-1 order-lg-1">
                                 <img class="img-fluid wow zoomIn" data-wow-delay="0.3s" src="img/power_abuse.jpg" alt="Power Abuse Illustration" style="user-select:none; pointer-events:none;">
+                                <div class="d-lg-none" style="height: 20px;"></div>
                             </div>
-                            <div class="col-lg-6">
+                            <div class="col-lg-6 order-2 order-lg-2">
                                 <p class="mb-5 px-5">
                                     Many online communities face challenges that can cause distrust among their members, including bias, lack of transparency, inconsistent moderation actions, and sometimes even rogue moderators.
                                     <br><br>
@@ -242,18 +249,17 @@
                                     For example, a moderator may push their misguided ideologies upon community members and permanently ban those who disagree or oppose their view, even if they didn't violate the rules.
                                 </p>
                             </div>
-                            
                         </div>
                     </div>
                 </div>
-                <div class="row g-5 py-8">
+                <div class="row g-5 py-8 content-wrapper">
                     <div class="wow fadeInUp" data-wow-delay="0.1s">
                         <div class="section-title position-relative text-center mb-5 pb-2 wow fadeInUp">
                             <h6 class="position-relative d-inline text-primary ps-4">Our Solution</h6>
                             <h2 class="mt-2">A Fair and Unbiased Second Opinion</h2>
                         </div>
-                        <div class="d-flex justify-content-center">
-                            <div class="col-lg-6">
+                        <div class="d-flex flex-column flex-lg-row justify-content-center">
+                            <div class="col-lg-6 order-2 order-lg-1">
                                 <p class="mb-5 px-5">
                                     Allowing a reliable service like Fairify to handle your community appeals can reassure your members that actions taken against them were fair and justified while providing more insight and transparency into the decision, which builds trust within your community.
                                     <br><br>
@@ -264,23 +270,25 @@
                                     By introducing an experienced team of reviewers, we can successfully address the challenges many online communities face, providing members with more security by knowing that our team handles their appeals with the utmost care and objectivity.
                                 </p>
                             </div>
-                            <div class="col-lg-6">
+                            <div class="col-lg-6 order-1 order-lg-2">
                                 <img class="img-fluid wow zoomIn" data-wow-delay="0.3s" src="img/investigation.jpg" alt="Investigation Illustration" style="user-select:none; pointer-events:none;">
+                                <div class="d-lg-none" style="height: 20px;"></div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="row g-5 py-8">
+                <div class="row g-5 py-8 content-wrapper">
                     <div class="wow fadeInUp" data-wow-delay="0.1s">
                         <div class="section-title position-relative text-center mb-5 pb-2 wow fadeInUp">
                             <h6 class="position-relative d-inline text-primary ps-4">Our Promise</h6>
                             <h2 class="mt-2">Ensuring Fairness and Impartiality</h2>
                         </div>
-                        <div class="d-flex justify-content-center">
-                            <div class="col-lg-6">
+                        <div class="d-flex flex-column flex-lg-row justify-content-center">
+                            <div class="col-lg-6 order-1 order-lg-1">
                                 <img class="img-fluid wow zoomIn" data-wow-delay="0.3s" src="img/team_review.jpg" alt="Team Review Illustration" style="user-select:none; pointer-events:none;">
+                                <div class="d-lg-none" style="height: 20px;"></div>
                             </div>
-                            <div class="col-lg-6">
+                            <div class="col-lg-6 order-2 order-lg-2">
                                 <p class="mb-5 px-5">
                                     We understand that many of the challenges we noted could raise concerns for a service like Fairify. How can you be sure that Fairify will remain unbiased and reliable?
                                     <br><br>
@@ -382,7 +390,7 @@
                         </div>
                         <div class="text-center">
                             <div class="footer-menu">
-                                <a href="index">Home</a>
+                                <a href="/">Home</a>
                                 <a href="about">About</a>
                                 <a href="services">Services</a>
                                 <a href="attributions">Attributions</a>
