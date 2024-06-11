@@ -1,3 +1,9 @@
+B-202406104
+
++ Fixed a broken link on the Home page
+
+
+
 B-202406103
 
 + Fixed a bug that prevented scrolling on Firefox
