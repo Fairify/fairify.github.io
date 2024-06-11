@@ -14,11 +14,11 @@
             } else {
                 setTimeout(function() {
                     spinnerElement.removeClass('show');
-                    body.removeClass('overflow-hidden')
+                    body.removeClass('overflow-hidden');
                 }, 1)
                 
             }
-        }, 1)
+        }, 0)
 
         var interval = setInterval(function () {
             switch (counter % 3) {
