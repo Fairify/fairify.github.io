@@ -15,7 +15,7 @@
                 setTimeout(function() {
                     spinnerElement.removeClass('show');
                     body.removeClass('overflow-hidden');
-                }, 1)
+                }, 0)
                 
             }
         }, 0)

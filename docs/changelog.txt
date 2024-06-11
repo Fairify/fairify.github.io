@@ -1,3 +1,9 @@
+B-202406103
+
++ Fixed a bug that prevented scrolling on Firefox
+
+
+
 B-202406102
 
 + Fixed a bug that prevented scrolling on Firefox
