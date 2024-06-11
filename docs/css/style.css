@@ -675,19 +675,19 @@ h6,
     padding: 15px;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1129px) {
     .pricing-table .ptable-item {
         width: 33.33%;
     }
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .pricing-table .ptable-item {
         width: 50%;
     }
-}
+} */
 
-@media (max-width: 576px) {
+@media (max-width: 738px) {
     .pricing-table .ptable-item {
         width: 100%;
     }
