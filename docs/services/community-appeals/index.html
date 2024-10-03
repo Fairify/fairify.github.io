@@ -53,9 +53,11 @@
             </div>
             <p id="current-status">Loading...</p>
             <div id="status-message" class="px-3">
-                <p class="text-danger invisible"><i class="fa-solid fa-circle-exclamation pt-3 ps-2 me-2"></i>This page is taking longer to load than expected.
+                <p class="text-danger invisible"><i class="fa-solid fa-circle-exclamation pt-3 ps-2 me-2"></i>
+                    This page is taking longer to load than expected.
                     <br><br>
-                    Please <a href="https://www.x.com/FairifyOfficial">check here</a> for status updates.</p>
+                    Please <a href="https://www.x.com/FairifyOfficial">check here</a> for status updates.
+                </p>
             </div>
         </div>
         <!-- Spinner End -->
@@ -96,8 +98,7 @@
                 <div class="container my-5 py-5 px-lg-5">
                     <div class="row g-5 py-5">
                         <div class="col-12 text-center">
-                            <i class="fab bi-shield-fill-check fa-3x animated wow zoomIn"
-                                style="color:white; padding-bottom:15px;"></i>
+                            <i class="fab bi-shield-fill-check fa-3x animated wow zoomIn" style="color:white; padding-bottom:15px;"></i>
                             <h1 class="text-white animated wow zoomIn" data-wow-delay="0.3s">Community Appeals</h1>
                             <hr class="bg-white mx-auto mt-0" style="width: 90px;">
                             <nav aria-label="breadcrumb">
@@ -120,13 +121,11 @@
             <div class="modal-dialog modal-fullscreen">
                 <div class="modal-content" style="background: rgba(29, 29, 39, 0.7);">
                     <div class="modal-header border-0">
-                        <button type="button" class="btn bg-white btn-close" data-bs-dismiss="modal"
-                            aria-label="Close"></button>
+                        <button type="button" class="btn bg-white btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body d-flex align-items-center justify-content-center">
                         <div class="input-group" style="max-width: 600px;">
-                            <input type="text" class="form-control bg-transparent border-light p-3"
-                                placeholder="Type search keyword">
+                            <input type="text" class="form-control bg-transparent border-light p-3" placeholder="Type search keyword">
                             <button class="btn btn-light px-4"><i class="bi bi-search"></i></button>
                         </div>
                     </div>
@@ -137,24 +136,80 @@
 
 
         <!-- Service Start -->
+
         <div class="container-xxl py-5">
             <div class="container px-lg-5">
                 <div class="section-title position-relative text-center mb-5 pb-2 wow fadeInUp" data-wow-delay="0.1s">
-                    <h6 class="position-relative d-inline text-primary ps-4">Our Plans</h6>
-                    <h2 class="mt-2">Choose the right plan for you.</h2>
+                    <h6 class="position-relative d-inline text-primary ps-4">Join the waitlist!</h6>
+                    <h2 class="mt-2">We'll let you know when we're ready.</h2>
                 </div>
-                <!-- Pricing Table 3 Start -->
 
-                <div class="toggle-btn wow zoomIn" data-wow-delay="0.3s">
+                <body class="bg-dark">
+                    <div class="container-fluid">
+                        <div class="row align-items-center justify-content-center wow fadeInUp" data-wow-delay="0.2s">
+                            <div class="col-lg-6 col-md-8">
+                                <!-- Contact Form Start -->
+                                <div class="inputArea contact-form bg-dark shadow-form rounded p-5">
+                                    <h2 class="text-center fw-bold">Community Appeals</h2>
+                                    <h5 class="text-center fw-bold mb-4">Join our waitlist!</h5>
+                                    <div class="inputField">
+                                        <div class="row">
+                                            <div class="col-6 control-group">
+                                                <b class="text-light">Your Name</b>
+                                                <input id="name" type="text" class="form-control py-2" placeholder="Enter your name" />
+                                                <p class="help-block text-danger"></p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-6 control-group">
+                                                <b class="text-light">Your Email</b>
+                                                <input id="emailAddress" type="email" class="form-control py-2" placeholder="Enter your email address" />
+                                                <p class="help-block text-danger"></p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-6 control-group">
+                                                <b class="text-light">Platform</b>
+                                                <select id="platform" class="form-control py-2">
+                                                    <option value="" selected disabled>Select a platform</option>
+                                                    <option value="discord">Discord</option>
+                                                    <option value="reddit">Reddit</option>
+                                                </select>
+                                                <p class="help-block text-danger"></p>
+                                            </div>
+                                        </div>
+                                        <!-- <div class="col-12 control-group">
+                                                <textarea class="form-control" rows="4" id="message" placeholder="Message"
+                                                    required="required"
+                                                    data-validation-required-message="Please enter your message"></textarea>
+                                                <p class="help-block text-danger"></p>
+                                            </div> -->
+                                            <div class="col-12">
+                                                <button class="btn btn-primary w-100 py-2" type="button" id="optInWaitlist">
+                                                    <span>Join Waitlist</span>
+                                                    <i class="fa fa-paper-plane text-primary fs-5 ms-1"></i>
+                                                    <div class="d-none spinner-border spinner-border-sm text-light ms-3" role="status"></div>
+                                                </button>
+                                            </div>
+                                    </div>
+                                </div>
+                                <!-- Contact Form End -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Pricing Table 3 Start -->
+
+                    <!-- <div class="toggle-btn wow zoomIn" data-wow-delay="0.3s">
                     <span>Monthly</span>
                     <label class="switch">
                         <input type="checkbox" id="pricing-toggle" onclick="check()" ; />
                         <span class="slider round"></span>
                     </label>
                     <span>Annually</span>
-                </div>
+                </div> -->
 
-
+                    <!--
                 <div class="pricing-table table-3">
                     <div class="ptable-item basic wow zoomIn" data-wow-delay="0.1s">
                         <div class="ptable-single">
@@ -258,9 +313,10 @@
                         </div>
                     </div>
                 </div>
-                <!-- Pricing Table 3 End -->
+            -->
+                    <!-- Pricing Table 3 End -->
 
-                <!--
+                    <!--
                 <div class="row g-4">
                     <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.1s">
                         <div class="service-item d-flex flex-column justify-content-center text-center rounded">
@@ -319,7 +375,7 @@
                         <a class="btn btn-link" href="../../about">About</a>
                         <a class="btn btn-link" href="../">Services</a>
                         <a class="btn btn-link" href="https://forms.gle/hDqdQS7kkoTv4nqV8" target="_blank">Contact Us</a>
-                        
+
                     </div>
                     <!-- <div class="col-md-6 col-lg-3">
                         <h5 class="text-white mb-4">Project Gallery</h5>
@@ -356,20 +412,20 @@
             </div>
             <div class="container px-lg-5">
                 <div class="copyright">
-                        <div class="text-center mb-3 mb-md-0">
-                            <p>&copy; Fairify 2024. All Rights Reserved.</p>
+                    <div class="text-center mb-3 mb-md-0">
+                        <p>&copy; Fairify 2024. All Rights Reserved.</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="footer-menu">
+                            <a href="../../">Home</a>
+                            <a href="../../about">About</a>
+                            <a href="../">Services</a>
+                            <a href="../../attributions">Attributions</a>
+                            <a href="../../privacy-policy">Privacy</a>
+                            <a href="../../cookie-policy">Cookies</a>
+                            <a href="../../refund-policy">Refunds</a>
                         </div>
-                        <div class="text-center">
-                            <div class="footer-menu">
-                                <a href="../../">Home</a>
-                                <a href="../../about">About</a>
-                                <a href="../">Services</a>
-                                <a href="../../attributions">Attributions</a>
-                                <a href="../../privacy-policy">Privacy</a>
-                                <a href="../../cookie-policy">Cookies</a>
-                                <a href="../../refund-policy">Refunds</a>
-                            </div>
-                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -389,6 +445,9 @@
     <script src="../../lib/owlcarousel/owl.carousel.min.js"></script>
     <script src="../../lib/isotope/isotope.pkgd.min.js"></script>
     <script src="../../lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Waitlist Opt-In -->
+     <script src="../../js/optInWaitlist.js"></script>
 
     <!-- Monthly/Annual Pricing Toggle Switch -->
     <script>

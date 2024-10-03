@@ -1,3 +1,14 @@
+B-202410031
+
++ Updated the Community Appeals page
++ Updated the services table on the Home page
++ Updated the loading screen
++ Updated some CSS properties
++ Updated the Community Security panel countdown date
+- Replaced the pricing table with a waitlist on the Community Appeals page
+
+
+
 B-202406111
 
 + Updated the pricing table layout on the Community Appeals page

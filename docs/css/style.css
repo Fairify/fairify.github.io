@@ -396,6 +396,15 @@ h6,
     border-radius: 100px;
 }
 
+.service-tag-beta {
+    background-color: rgb(75, 155, 255);
+    color: white;
+    font-size: 100%;
+    font-weight: 500;
+    width: 75px;
+    border-radius: 100px;
+}
+
 
 /*** Testimonial ***/
 
@@ -416,6 +425,10 @@ h6,
 }
 
 #emailAddress {
+    transition: background-color 0.5s ease;
+}
+
+#name {
     transition: background-color 0.5s ease;
 }
 

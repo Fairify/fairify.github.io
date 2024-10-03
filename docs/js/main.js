@@ -1,26 +1,46 @@
 (function ($) {
     "use strict";
 
-    // Spinner
     var spinner = function () {
         var currentStatus = document.getElementById('current-status');
+        var loadingElement = document.getElementsByClassName('spinner-grow');
         var spinnerElement = $('#spinner');
         var body = $('body');
         var counter = 0;
-
-        setTimeout(function() {
+    
+        var interval;
+        var dangerTimeout;
+    
+        var stopLoading = function () {
+            spinnerElement.removeClass('show');
+            body.removeClass('overflow-hidden');
+            clearInterval(interval);
+            currentStatus.textContent = "Loading Complete!";
+            const spinnerElements = document.querySelectorAll('.spinner-grow');
+            spinnerElements.forEach(function (spinner) {
+                spinner.classList.remove('spinner-grow');
+                spinner.classList.add('spinner-outline');
+            });
+            clearTimeout(dangerTimeout);
+            setTimeout(function() {
+                if (!$('.text-danger').hasClass('invisible')) {
+                    $('.text-danger').fadeOut(1000, function () {
+                        $(this).addClass('invisible').fadeIn(1000);
+                    });
+                }
+            }, 1000)
+            
+        };
+    
+        setTimeout(function () {
             if (spinnerElement.length === 0) {
                 clearInterval(interval);
             } else {
-                setTimeout(function() {
-                    spinnerElement.removeClass('show');
-                    body.removeClass('overflow-hidden');
-                }, 0)
-                
+                setTimeout(stopLoading, 0);
             }
-        }, 0)
-
-        var interval = setInterval(function () {
+        }, 0);
+    
+        interval = setInterval(function () {
             switch (counter % 3) {
                 case 0:
                     currentStatus.textContent = 'Loading.';
@@ -34,17 +54,16 @@
             }
             counter++;
         }, 500);
-
-        setTimeout(function() {
-
-            $('.text-danger.invisible').fadeOut(1000, function() {
-
+    
+        dangerTimeout = setTimeout(function () {
+            $('.text-danger.invisible').fadeOut(1000, function () {
                 $(this).removeClass('invisible').fadeIn(1000);
-
             });
         }, 3000);
     };
+    
     spinner();
+    
 
 
     // Initiate the wowjs
